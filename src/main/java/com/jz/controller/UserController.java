@@ -19,7 +19,7 @@ public class UserController {
     private UserService us;
     @RequestMapping("/user")
     public List<User> userSelectAll(){
-
+        System.out.println("etesf");
         List<User> users = us.selectAll();
         return  users;
     }

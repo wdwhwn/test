@@ -228,7 +228,7 @@
 
   <build>
     <!-- 应与application.properties(或application.yml)中context-path保持一致 -->
-    <finalName>dishwasher</finalName>
+    <finalName>test</finalName>
     <plugins>
       <!--<plugin>
            <groupId>org.mybatis.generator</groupId>

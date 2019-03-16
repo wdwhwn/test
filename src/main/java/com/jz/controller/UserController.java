@@ -23,6 +23,8 @@ public class UserController {
         System.out.println("etesf");
         System.out.println("etesf");
         System.out.println("etesf");
+        System.out.println("etesf");
+        System.out.println("6");
         List<User> users = us.selectAll();
         return  users;
     }

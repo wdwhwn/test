@@ -20,6 +20,7 @@ public class UserController {
     @RequestMapping("/user")
     public List<User> userSelectAll(){
         System.out.println("etesf");
+        System.out.println("etesf");
         List<User> users = us.selectAll();
         return  users;
     }
